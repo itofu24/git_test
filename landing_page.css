@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.header {
+    background-color: #1f2937;
+    height: 30vh;
+}
+
+.header-logo {
+    flex-grow: 2;
+    color: #f9faf8;
+    font-style: bold;
+    font-size: 1em;
+    text-align: center;
+}
+
+.header-logo h1 {}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+}
+
+.links-container{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 2;
+    align-items: center;
+    justify-content: center;
+    column-gap: 25px;
+}
+
+.link {
+    color: #f9faf8;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    max-height: 15vh;
+    min-height: 10vh;
+    min-width: 20vh;
+}
+
+.main-title {
+    width: 20vw;
+    word-wrap: break-word;
+    min-width: 30vh;
+}
+
+.main-title h1{
+    color: #e5e7eb;
+    margin-bottom: 0px;
+}
+
+.main-title p{
+    color: #e5e7eb;
+    margin-top: 5px;
+    font-size: 0.70em;
+}
+
+.main-title button{
+    border: none;
+    background-color: #3883f6;
+    padding: 5px 15px 5px 15px;
+    border-radius: 3px;
+    color: #f9faf8;
+    font-size: 10px;
+    font-style: bold;
+}
+
+.placeholder-img {
+    background-color: #e5e7eb;
+    min-width: 15vw;
+    text-align: center;
+    font-size: 0.70em;
+    padding: 0px 45px 0px 45px;
+    margin-left: 25px;
+}
+
+.section2 {
+    background-color: #f9faf8;
+    height: 25vh;
+}
+
+.section2 h1 {
+    font-size: 1.2em;
+    text-align: center;
+    color: #1f2937;
+}
+
+.img-container {
+    display: flex;
+    flex-direction: row;
+    column-gap: 4vw;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.img {
+    border: #3883f6;
+    border-style: solid;
+    padding: 40px;
+    border-radius: 5px;
+}
+
+.section3 {
+    background-color: #e5e7eb;
+    margin: 0;
+    height: 20vh;
+}
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 60vw;
+}
+.quote {
+    margin: 0px;
+    font-style: italic;
+    color: #1f2937;
+    text-align: left;
+}
+
+.author {
+    text-align: right;
+    font-size: .75em;
+    font-style: bold;
+}
